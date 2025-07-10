@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #8ac0fa;
+  padding: 2rem;
+
+}
+h1{
+  font-size: 5rem;
+  color:aliceblue;
+  font-family: "Arvo",cursive;
+  text-shadow: 3px 0 #DA0463;
+}
+
+.gallery img {
+  width: 200px;
+  margin: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+  border-radius: 15px;
+  background-color: aliceblue;
+}
+
+.gallery img:hover {
+  transform: scale(1.08);
+}
+
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.lightbox img {
+  width: 60%;
+}
